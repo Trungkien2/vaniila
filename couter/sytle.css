@@ -1,0 +1,35 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+
+}
+h1{
+    margin-left: 110px;
+    color: aqua;
+}
+#value{
+    margin-left: 132px;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.btn{
+    width: 100px;
+    border: none;
+    background-color: aqua;
+    margin-top: 50px;
+    color: white;
+    font-size: 1rem;
+}
+.btn.reset{
+    background-color: crimson;
+}
+.btn.up{
+    background-color: darkcyan;
+}
+.btn:hover{
+    opacity: 0.7;
+    color: violet;
+
+}
